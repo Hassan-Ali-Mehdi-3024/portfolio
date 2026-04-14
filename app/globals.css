@@ -726,6 +726,111 @@ a.nav-mark span {
   }
 }
 
+/* Contact Page */
+.contact-page-section {
+  padding-bottom: 5rem;
+}
+.contact-channels {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.2rem;
+  margin-bottom: 2.5rem;
+}
+.contact-channel-card {
+  background: var(--glass-strong);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border-radius: 22px;
+  padding: 2rem 2.2rem;
+  box-shadow: var(--shadow-soft);
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+  display: flex;
+  flex-direction: column;
+}
+.contact-channel-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-hover);
+}
+.channel-icon {
+  color: var(--accent);
+  margin-bottom: 1rem;
+}
+.channel-label {
+  font-family: "Outfit", sans-serif;
+  font-size: 0.72rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: var(--accent);
+  margin-bottom: 0.4rem;
+}
+.channel-value {
+  font-family: "Outfit", sans-serif;
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: var(--ink);
+  letter-spacing: -0.01em;
+  word-break: break-word;
+}
+.channel-hint {
+  font-size: 0.82rem;
+  color: var(--ink-mute);
+  margin-top: 0.5rem;
+}
+.contact-details-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.2rem;
+  margin-bottom: 3.5rem;
+}
+.contact-detail-item {
+  background: var(--glass);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border-radius: 16px;
+  padding: 1.4rem 1.6rem;
+}
+.detail-label {
+  font-family: "Outfit", sans-serif;
+  font-size: 0.68rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: var(--accent);
+  margin-bottom: 0.4rem;
+}
+.detail-value {
+  font-family: "Outfit", sans-serif;
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: var(--ink);
+}
+.contact-form-section {
+  max-width: 680px;
+  margin: 0 auto;
+}
+.contact-form-heading {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  margin-bottom: 1.5rem;
+}
+@media (max-width: 760px) {
+  .contact-channels {
+    grid-template-columns: 1fr;
+  }
+  .contact-details-row {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 480px) {
+  .contact-details-row {
+    grid-template-columns: 1fr;
+  }
+}
+
 /* Entry animation */
 @keyframes rise {
   from {
