@@ -1,4 +1,5 @@
 import ContactForm from "./contact-form";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -21,10 +22,10 @@ export default function Home() {
               <svg className="nav-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="M12 5l7 7-7 7"/></svg>
               <span className="nav-text">Shipped</span>
             </a>
-            <a href="#next">
-              <svg className="nav-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-              <span className="nav-text">Next</span>
-            </a>
+            <Link href="/case-studies">
+              <svg className="nav-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+              <span className="nav-text">Cases</span>
+            </Link>
             <a href="#contact">
               <svg className="nav-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
               <span className="nav-text">Contact</span>
@@ -89,7 +90,7 @@ export default function Home() {
             <h2>Full systems. Not prototypes that die in a notebook.</h2>
           </div>
           <div className="shipped-list">
-            <article className="shipped-card">
+            <Link href="/case-studies/rentcentral" className="shipped-card">
               <div>
                 <div className="ship-title">RentCentral</div>
                 <div className="ship-tag">US Real Estate &middot; Copilot</div>
@@ -101,9 +102,9 @@ export default function Home() {
                 <span className="accent">multi-agent dealmaker</span> before
                 &quot;agent&quot; meant what it means now.
               </div>
-            </article>
+            </Link>
 
-            <article className="shipped-card">
+            <Link href="/case-studies/luxe-maintenance" className="shipped-card">
               <div>
                 <div className="ship-title">Luxe Maintenance Corp</div>
                 <div className="ship-tag">
@@ -120,9 +121,9 @@ export default function Home() {
                 </span>
                 .
               </div>
-            </article>
+            </Link>
 
-            <article className="shipped-card">
+            <Link href="/case-studies/autorecai" className="shipped-card">
               <div>
                 <div className="ship-title">AutoRecAI</div>
                 <div className="ship-tag">
@@ -135,9 +136,9 @@ export default function Home() {
                 <span className="accent">structured intelligence</span> into
                 downstream sales workflows.
               </div>
-            </article>
+            </Link>
 
-            <article className="shipped-card">
+            <Link href="/case-studies/beam-and-bricks" className="shipped-card">
               <div>
                 <div className="ship-title">Beam &amp; Bricks</div>
                 <div className="ship-tag">
@@ -150,9 +151,9 @@ export default function Home() {
                 showing{" "}
                 <span className="accent">live percentages and returns</span>.
               </div>
-            </article>
+            </Link>
 
-            <article className="shipped-card">
+            <Link href="/case-studies/turbo-learn" className="shipped-card">
               <div>
                 <div className="ship-title">Turbo-Learn</div>
                 <div className="ship-tag">
@@ -168,7 +169,7 @@ export default function Home() {
                 </span>
                 .
               </div>
-            </article>
+            </Link>
           </div>
         </section>
 
