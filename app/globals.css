@@ -91,7 +91,7 @@ nav {
 }
 .nav-mark {
   font-weight: 600;
-  font-size: 1.05rem;
+  font-size: 1.575rem;
   letter-spacing: -0.01em;
 }
 .nav-mark span {
@@ -109,15 +109,35 @@ nav {
   color: var(--ink-soft);
   text-decoration: none;
   transition: color 0.25s;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
 }
 .nav-links a:hover {
   color: var(--accent);
+}
+.nav-icon {
+  display: none;
+}
+
+@media (max-width: 520px) {
+  .nav-links {
+    gap: 1.4rem;
+  }
+  .nav-icon {
+    display: block;
+  }
+  .nav-text {
+    display: none;
+  }
 }
 
 /* Hero */
 .hero {
   padding: 5rem 0 7rem;
   max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
 }
 .eyebrow {
   font-family: "Outfit", sans-serif;
@@ -151,6 +171,8 @@ h1 .period {
   font-size: 1.2rem;
   color: var(--ink-soft);
   max-width: 620px;
+  margin-left: auto;
+  margin-right: auto;
   line-height: 1.55;
   font-weight: 300;
 }
@@ -163,6 +185,7 @@ h1 .period {
   display: flex;
   gap: 2rem;
   flex-wrap: wrap;
+  justify-content: center;
   font-family: "Outfit", sans-serif;
   font-size: 0.82rem;
   text-transform: uppercase;
@@ -181,11 +204,10 @@ section {
 }
 .section-head {
   display: flex;
-  align-items: baseline;
-  justify-content: space-between;
+  flex-direction: column;
+  align-items: flex-start;
   margin-bottom: 3.5rem;
-  gap: 2rem;
-  flex-wrap: wrap;
+  gap: 0.8rem;
 }
 .section-label {
   font-family: "Outfit", sans-serif;

@@ -13,10 +13,22 @@ export default function Home() {
             Hassan<span>.</span>
           </div>
           <div className="nav-links">
-            <a href="#build">Build</a>
-            <a href="#shipped">Shipped</a>
-            <a href="#next">Next</a>
-            <a href="#contact">Contact</a>
+            <a href="#build">
+              <svg className="nav-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect x="2" y="6" width="20" height="12" rx="2"/><path d="M12 12h.01"/><path d="M17 12h.01"/><path d="M7 12h.01"/></svg>
+              <span className="nav-text">Build</span>
+            </a>
+            <a href="#shipped">
+              <svg className="nav-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="M12 5l7 7-7 7"/></svg>
+              <span className="nav-text">Shipped</span>
+            </a>
+            <a href="#next">
+              <svg className="nav-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              <span className="nav-text">Next</span>
+            </a>
+            <a href="#contact">
+              <svg className="nav-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              <span className="nav-text">Contact</span>
+            </a>
           </div>
         </nav>
 
@@ -25,7 +37,7 @@ export default function Home() {
           <div className="eyebrow">Agentic &middot; AI &middot; Architect</div>
           <div className="greeting">Hi, I&apos;m</div>
           <h1>
-            Hassan<span className="period">.</span>
+            Hassan Ali Mehdi<span className="period">.</span>
           </h1>
           <p className="hero-intro">
             I build <span className="accent">agentic AI systems</span> for
