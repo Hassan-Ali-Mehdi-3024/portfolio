@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node -c \"e:/Projects/Hassan Ali Mehdi/index.html\")",
+      "Bash(node -e ':*)",
+      "Bash(start \"\" \"e:/Projects/Hassan Ali Mehdi/index.html\")"
+    ]
+  }
+}
