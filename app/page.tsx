@@ -206,9 +206,10 @@ export default function Home() {
         <footer>
           <div>&copy; 2026 Hassan &middot; Codantrix Labs</div>
           <div>
-            <a href="#">LinkedIn</a> &nbsp;&middot;&nbsp;{" "}
+            <a href="https://linkedin.com/in/hassan-ali-mehdi" target="_blank" rel="noopener noreferrer">LinkedIn</a> &nbsp;&middot;&nbsp;{" "}
             <a href="mailto:hello@hassanalimehdi.dev">Email</a>{" "}
-            &nbsp;&middot;&nbsp; <a href="#">GitHub</a>
+            &nbsp;&middot;&nbsp; <a href="https://github.com/Hassan-Ali-Mehdi-3024" target="_blank" rel="noopener noreferrer">GitHub</a>{" "}
+            &nbsp;&middot;&nbsp; <a href="https://wa.me/923004101153" target="_blank" rel="noopener noreferrer">WhatsApp</a>
           </div>
         </footer>
       </div>

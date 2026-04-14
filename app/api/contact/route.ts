@@ -100,9 +100,13 @@ export async function POST(req: Request) {
         <p style="margin:0 0 8px;font-size:12px;color:#8a6a58;">
           <a href="${SITE_URL}" style="color:#c44a26;text-decoration:none;">Website</a>
           &nbsp;&nbsp;&#183;&nbsp;&nbsp;
-          <a href="${SITE_URL}#build" style="color:#c44a26;text-decoration:none;">Work</a>
+          <a href="https://linkedin.com/in/hassan-ali-mehdi" style="color:#c44a26;text-decoration:none;">LinkedIn</a>
           &nbsp;&nbsp;&#183;&nbsp;&nbsp;
-          <a href="${SITE_URL}#contact" style="color:#c44a26;text-decoration:none;">Contact</a>
+          <a href="https://github.com/Hassan-Ali-Mehdi-3024" style="color:#c44a26;text-decoration:none;">GitHub</a>
+          &nbsp;&nbsp;&#183;&nbsp;&nbsp;
+          <a href="https://wa.me/923004101153" style="color:#c44a26;text-decoration:none;">WhatsApp</a>
+          &nbsp;&nbsp;&#183;&nbsp;&nbsp;
+          <a href="mailto:hello@hassanalimehdi.dev" style="color:#c44a26;text-decoration:none;">Email</a>
         </p>
         <p style="margin:0;font-size:11px;color:#b89a8a;">&copy; 2026 Hassan Ali Mehdi &middot; Codantrix Labs</p>
       </td></tr>
@@ -173,9 +177,13 @@ export async function POST(req: Request) {
         <p style="margin:0 0 8px;font-size:12px;color:#8a6a58;">
           <a href="${SITE_URL}" style="color:#c44a26;text-decoration:none;">Website</a>
           &nbsp;&nbsp;&#183;&nbsp;&nbsp;
-          <a href="${SITE_URL}#build" style="color:#c44a26;text-decoration:none;">Work</a>
+          <a href="https://linkedin.com/in/hassan-ali-mehdi" style="color:#c44a26;text-decoration:none;">LinkedIn</a>
           &nbsp;&nbsp;&#183;&nbsp;&nbsp;
-          <a href="${SITE_URL}#contact" style="color:#c44a26;text-decoration:none;">Contact</a>
+          <a href="https://github.com/Hassan-Ali-Mehdi-3024" style="color:#c44a26;text-decoration:none;">GitHub</a>
+          &nbsp;&nbsp;&#183;&nbsp;&nbsp;
+          <a href="https://wa.me/923004101153" style="color:#c44a26;text-decoration:none;">WhatsApp</a>
+          &nbsp;&nbsp;&#183;&nbsp;&nbsp;
+          <a href="mailto:hello@hassanalimehdi.dev" style="color:#c44a26;text-decoration:none;">Email</a>
         </p>
         <p style="margin:0;font-size:11px;color:#b89a8a;">&copy; 2026 Hassan Ali Mehdi &middot; Codantrix Labs</p>
       </td></tr>
